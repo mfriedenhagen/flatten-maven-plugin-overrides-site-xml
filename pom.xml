@@ -4,42 +4,31 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.mfriedenhagen</groupId>
-    <artifactId>flattenmaven-plugin-overrides-site-xml</artifactId>
+    <artifactId>flatten-maven-plugin-overrides-site-xml</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <name>flattenmaven-plugin-overrides-site-xml</name>
     <description>flattenmaven-plugin-overrides-site-xml</description>
-    <url>https://github.com/mfriedenhagen/flattenmaven-plugin-overrides-site-xml</url>
+    <url>https://github.com/mfriedenhagen/flatten-maven-plugin-overrides-site-xml</url>
     <inceptionYear>2014</inceptionYear>
 
     <scm>
-        <connection>scm:git:git://github.com/mfriedenhagen/flattenmaven-plugin-overrides-site-xml.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/mfriedenhagen/flattenmaven-plugin-overrides-site-xml.git</developerConnection>
-        <url>https://github.com/mfriedenhagen/flattenmaven-plugin-overrides-site-xml/</url>
+        <connection>scm:git:git://github.com/mfriedenhagen/flatten-maven-plugin-overrides-site-xml.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/mfriedenhagen/flatten-maven-plugin-overrides-site-xml.git</developerConnection>
+        <url>https://github.com/mfriedenhagen/flatten-maven-plugin-overrides-site-xml/</url>
     </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
         <maven-project-info-reports-plugin.version>2.7</maven-project-info-reports-plugin.version>
         <maven-site-plugin.version>3.3</maven-site-plugin.version>
-        <maven-surefire-plugin.version>2.17</maven-surefire-plugin.version>
     </properties>
 
     <build>
         <pluginManagement>
             <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>${maven-compiler-plugin.version}</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>${maven-surefire-plugin.version}</version>
-                </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-site-plugin</artifactId>
